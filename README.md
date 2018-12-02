@@ -1,5 +1,4 @@
-﻿
-# rock-chips
+﻿# [rockchips](https://github.com/mcuyun/rockchips) 
 
 [![sites](docs/mcuyun.png)](http://www.mcuyun.com)
 
@@ -33,9 +32,9 @@ https://github.com/mcuyun/RK3308.git
 
 
 
+
 ---
 
-## 说明
-
-本工程用于索引Nuvoton各个工程
-
+###  www.mcuyun.com  
+###  qitas@qitas.cn
+###  2018-12-2
