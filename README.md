@@ -1,6 +1,6 @@
 ﻿# [rockchips](https://github.com/mcuyun/rockchips) 
 
-[![sites](docs/mcuyun.png)](http://www.mcuyun.com)
+[![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
 
 瑞芯微成立于2001年，总部福州，是中国极具创新和务实的集成电路设计公司。
 
@@ -14,21 +14,24 @@
 
 https://github.com/mcuyun/RK3399.git
 
----
-
 ### RK3326
 
 瑞星微最新一代处理器，四核Cortex-A35，频率最高1.5GHz，包含8M ISP，Mali-G31MP2 GPU
 
 https://github.com/mcuyun/RK3326.git
 
----
-
 ### RK3308
 
 瑞星微最新一代处理器，四核Cortex-A35 频率最高 1.3GHz，包含8路ADC和2路DAC
 
 https://github.com/mcuyun/RK3308.git
+
+
+### RX30
+
+瑞星微最新一代处理器，四核Cortex-A35 Mali-G31GPU 支持双屏异显 内置8M ISP
+
+https://github.com/mcuyun/RX30.git
 
 
 
