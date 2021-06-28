@@ -2,8 +2,6 @@
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-[![Build Status](https://github.com/SoCXin/CH32V208/workflows/src/badge.svg)](https://github.com/SoCXin/CH32V208/actions/workflows/src.yml)
-
 * [WCH](http://www.wch.cn/)：[RISC-V](https://github.com/SoCXin/RISC-V)
 * [L4R4](https://github.com/SoCXin/Level)：144 MHz
 
@@ -19,7 +17,7 @@
 * 4个USART接口
 * 低功耗蓝牙5.1
 * 64KB SRAM，128KB Flash
-
+* 2组运放比较器
 
 ### [资源收录](https://github.com/SoCXin)
 
@@ -29,12 +27,14 @@
 
 ### [选型建议](https://github.com/SoCXin)
 
-[CH32V208](https://github.com/SoCXin/CH32V208) 特色Type-C和USB-PD，4串口满足数据传输需求。
+[CH32V208](https://github.com/SoCXin/CH32V208)
 
 * LQFP64M
 * QFN68
-* QFN28 (4*4mm)
 * QFN48
+* QFN28 (4*4mm)
 
+[![sites](docs/diff.png)](http://www.wch.cn/products/CH32V208.html)
+[![sites](docs/list.png)](http://www.wch.cn/products/CH32V208.html)
 
 ### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)

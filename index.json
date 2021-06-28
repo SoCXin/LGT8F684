@@ -19,10 +19,10 @@
         "type": "git",
         "url": "https://github.com/SoCXin/CH32V208.git"
     },
-    "series":["CH32V208","CH548","CH547","CH546"],
-    "package":["LQFP48","QFN28","SOP16"],
+    "series":["CH32V208","CH32V203","CH32V307","CH32V305","CH32V303"],
+    "package":["LQFP64M","QFN68","QFN48","QFN28"],
     "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
-    "price":[4,6],
+    "price":[12,16],
     "TIM": {
         "resolution":[16,16,16],
         "WWDG": true
@@ -71,10 +71,9 @@
     },
     "keywords": [
         "dev-platform",
-        "ARM",
-        "Cortex-M",
-        "Raspberry Pi",
-        "RP2040",
+        "RISC-V",
+        "WCH",
+        "CH32V208",
         "DAC","SDIO","CAN","I2C","RTC","SPI",
         "3.6V","1.8V"
     ]
