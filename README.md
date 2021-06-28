@@ -1,32 +1,40 @@
-﻿# [LGT8F684](https://github.com/SoCXin/LGT8F684)
+﻿# [CH32V208](https://github.com/SoCXin/CH32V208)
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/SoCXin/Vendor)：[LogicGreen](http://www.lgtic.com/)
-#### [Core](https://github.com/SoCXin/RISC)：[RISC](https://github.com/SoCXin/RISC)
-#### [Level](https://github.com/SoCXin/Level)：20MHz
+[![Build Status](https://github.com/SoCXin/CH32V208/workflows/src/badge.svg)](https://github.com/SoCXin/CH32V208/actions/workflows/src.yml)
 
-[LGT8F684](http://www.lgtic.com/LGT8F684a/) 是一款面向低成本应用8位微控制器. LGT684A程序空间为(2K*14), 128字节的数据SRAM. 运行频率最高可到16MHz. 模拟外设方面, 一个12位的ADC, 内部1.2V高精度参考电压, 一个可编程增益(x1/8/16/32)的差分放大器, 两个6位的DAC, 两个高速高精度模拟比较器(AC); 数字外设方面有2×8位+1×16位定时器, 增强俘获/比较/PWM发生器, 可同时支持2组互补输出, 互补PWM支持死区控制和自动关闭.
+* [WCH](http://www.wch.cn/)：[RISC-V](https://github.com/SoCXin/RISC-V)
+* [L4R4](https://github.com/SoCXin/Level)：144 MHz
 
+## [简介](https://github.com/SoCXin/CH32V208/wiki)
 
-[![sites](docs/LGT8F684.png)](http://www.lgtic.com/lgt8f684a/)
+[CH32V208](https://github.com/SoCXin/CH32V208) 系列是基于32位RISC-V设计的无线型微控制器，配备了硬件堆栈区、快速中断入口，在标准RISC-V基础上大大提高了中断响应速度。搭载V4C内核，加入内存保护单元，同时降低硬件除法周期。片上集成2Mbps低功耗蓝牙BLE 通讯模块、10M以太网MAC+PHY模块、USB2.0全速设备+主机/设备接口、CAN控制器等。
+
+[![sites](docs/CH32V208.png)](http://www.wch.cn/products/CH32V208.html)
 
 #### 关键特性
 
-* 1.2V高精度内部参考
-* 12位模数转换器(ADC)
-* 可编程增益差分放大器
-* 2x6位数模转换器(DAC)
+* 10M以太网控制器（MAC+PHY）
+* 4个USART接口
+* 低功耗蓝牙5.1
+* 64KB SRAM，128KB Flash
 
-### [资源收录](https://github.com/SoCXin/LGT8F684)
 
-* [参考文档](docs/)
+### [资源收录](https://github.com/SoCXin)
+
 * [参考资源](src/)
+* [参考文档](docs/)
 * [参考工程](project/)
 
 ### [选型建议](https://github.com/SoCXin)
 
-[LGT8F684](https://github.com/SoCXin/LGT8F684)
+[CH32V208](https://github.com/SoCXin/CH32V208) 特色Type-C和USB-PD，4串口满足数据传输需求。
+
+* LQFP64M
+* QFN68
+* QFN28 (4*4mm)
+* QFN48
 
 
-###  [www.SoC.xin(芯)](http://www.SoC.Xin)
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)

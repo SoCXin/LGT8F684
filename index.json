@@ -1,60 +1,81 @@
 {
     "type":"MCU",
-    "name":"LGT8F684",
-    "tags": ["MTP","LOWPIN"],
-    "series":["LGT8F684A"],
-    "description":"LogicGreen 8bit RISC OTP MCU",
-    "peripheral": ["TIM","PWM"],
-    "package":["SOP16","SOP8","QFN16"],
-    "SRAM":128,
-    "OTP":2048,
+    "name":"CH32V208",
+    "title": "WCH RISC-V CH32V208 MCU",
+    "description":"WCH RISC-V CH32V208 MCU",
+    "version":"1.0.0",
     "Core": {
         "num": 1,
-        "architecture":"RISC",
-        "Freq":16
+        "type":"RISC-V",
+        "Freq": 144,
+        "DMIPS": 100,
+        "CoreMark": 160
     },
-    "Level": {
-        "main":1,
-        "sub":12,
-        "price":0.7
+    "manufacturer": {
+        "vendor":"WCH",
+        "homepage": "http://www.wch.cn/products/CH32V208.html"
     },
-    "GPIO": {
-        "num": [13,17],
-        "irq": 4
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/CH32V208.git"
+    },
+    "series":["CH32V208","CH548","CH547","CH546"],
+    "package":["LQFP48","QFN28","SOP16"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "price":[4,6],
+    "TIM": {
+        "resolution":[16,16,16],
+        "WWDG": true
+    },
+    "UART": {
+        "mark": ["UART1","UART2"],
+        "BIT":[5,6,7,8,9],
+        "ISO7816":true,
+        "IrDA":true,
+        "LIN":true,
+        "FIFO": 16,
+        "BPS": [48,3000000]
     },
     "ADC": {
         "num": 1,
-        "channel": 6,
+        "channel": 4,
         "resolution": 12,
-        "rate": 1024
+        "MSPS": 1
     },
-    "TIM": {
-        "resolution":[8,8,16]
+    "USB": {
+        "num": 1,
+        "PD": true,
+        "FIFO": true,
+        "more":["FS","type-C","Host","Device"]
+    },
+    "PWR": {
+        "VDD": [2800,5000],
+        "Ivdd": 3.5,
+        "LDO": [5000,3300],
+        "rate": 1024
     },
     "PWM": {
         "num": 2,
         "resolution": 8,
         "rate": 256
     },
-    "CLK": {
-        "HSE": [1000,16000],
-        "HSI": [16000],
-        "LSI": [32],
-        "PLL": [16000,16000],
-        "DIV": [1,128],
-        "accuracy": 0.02
-    },
-    "PWR": {
-        "VDD": [2500,5500],
-        "IDD": [2.21,14.31],
-        "Imax": 120
-    },
     "EMC": {
-        "ESD": "4KV"
+        "EFT": 2000,
+        "ESD": 4000
     },
-    "vendor":"LogicGreen",
-    "url":"http://www.SoC.xin/LGT8F684",
-    "repo":"https://github.com/SoCXin/LGT8F684",
-    "homepage": "http://www.lgtic.com/LGT8F684a/",
-    "version":"1.0.0"
+    "upload": {
+        "ISP": true,
+        "IAP": true,
+        "SWD": true,
+        "speed": 115200
+    },
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "Raspberry Pi",
+        "RP2040",
+        "DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
 }
